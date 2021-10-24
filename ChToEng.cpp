@@ -7,7 +7,7 @@
 bool numIsRight(int num);
 bool ansIsRight(std::string const& ans,int num);
 bool printOut(int num);
-
+int randNum(int b);
 
 
 void ChToEng::CtoEn(int const b) {
@@ -25,8 +25,19 @@ void ChToEng::CtoEn(int const b) {
         }
     }
     std::cout<<"\ngood job! go on\n"<<std::endl;
-    system("pause");
-    system("cls");
+//    system("pause");
+//    system("cls");
+}
+int randNum(int const b){
+    //获取随机数
+//    std::random_device rd;//获取种子
+//    std::mt19937 gen(rd());//以梅森为播种标准
+//    std::uniform_int_distribution< > dis(0,b);//播种
+//    int rn=dis(gen);
+    srand(time(nullptr));
+    int rn=rand() % (b);
+    return rn;
+    return rn;
 }
 
 bool printOut(int const num){

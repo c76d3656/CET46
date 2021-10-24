@@ -3,40 +3,43 @@
 //
 
 #include "EngToCh.h"
-bool numIsRight(int a);
+bool numIsRight0(int a);
 void fourNumFormat(int (&four)[4],int b);
-int printfOut(int (&four)[4]);
 void isSelectZero(int (&four)[4]);
+int randNum0(int b);
+int printfOut1(const int (&four)[4]);
 
 void EngToCh::eToC(const int b) {
     int count=0;
-    for(int i=0;i<20;++i){
+    for(int i=0;i<3;++i){
         int four[4]={-1,-1,-1,-1};
         fourNumFormat(four,b);
-        int temp=printfOut(four);
-        if(temp!=-1)
-            words[four[temp]].flag1= true;
+        int temp= printfOut1(four);
+        if(temp!=-1) {
+            words[four[temp]].flag1 = true;
+            std::cout << "Right ans" << std::endl;
+        }
         else if(++count==2){
             std::cout<<"\nWrong so much!\n"<<std::endl;
             isSelectZero(four);
-            system("pause");
+//            system("pause");
             return;
+        }else{
+            std::cout<<"Wrong ans"<<std::endl;
         }
         isSelectZero(four);
-        std::cout<<"\ngood job! go on\n"<<std::endl;
-        system("pause");
-        system("cls");
     }
-
-
-
+    std::cout<<"\ngood job! go on\n"<<std::endl;
+//    system("pause");
+//    system("cls");
 }
 void isSelectZero(int (&four)[4]){
     for(auto &i:four)
         words[i].isSelect= false;
 }
-int printfOut(const int (&four)[4]){
-    int rn= randNum(3);
+
+int printfOut1(const int (&four)[4]){
+    int rn= randNum0(3);
     std::cout<<"\t"<<words[four[rn]].eng<<"\t"<<std::endl;
     for(int i=0;i<4;++i){
         std::cout<<i+1<<". "<<words[four[i]].ch<<std::endl;
@@ -50,7 +53,7 @@ int printfOut(const int (&four)[4]){
         return -1;
 }
 
-bool numIsRight(int const a) {
+bool numIsRight0(int const a) {
     //判断该数值是否合理可选
     //判断isSelect若为1啧false
     if(words[a].isSelect){
@@ -66,8 +69,8 @@ void fourNumFormat(int (&four)[4],int const b){
     for(int & i : four){
         int rn;
         while (true){
-            rn= randNum(b);
-            if(numIsRight(rn))
+            rn= randNum0(b);
+            if(numIsRight0(rn))
                 break;
             else
                 continue;
@@ -76,4 +79,15 @@ void fourNumFormat(int (&four)[4],int const b){
         words[rn].isSelect= true;
     }
 }
+int randNum0(int const b){
+    //获取随机数
+//    std::random_device rd;//获取种子
+//    std::mt19937 gen(rd());//以梅森为播种标准
+//    std::uniform_int_distribution< > dis(0,b);//播种
+//    int rn=dis(gen);
+    srand(time(nullptr));
+    int rn=rand() % (b);
+    return rn;
+}
+
 

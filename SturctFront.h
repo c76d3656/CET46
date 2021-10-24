@@ -5,10 +5,12 @@
 #ifndef CET46_STURCTFRONT_H
 #define CET46_STURCTFRONT_H
 #include <string>
+#include <utility>
 #include <vector>
 #include <random>
 #include <cstdlib>
 #include <iostream>
+#include <ctime>
 #pragma once
 struct  individual{
     std::string eng;
@@ -16,17 +18,10 @@ struct  individual{
     bool flag1= false;
     bool flag2= false;
     bool isSelect= false;
+    individual(std::string a, std::string b):eng(std::move(a)),ch(std::move(b)),flag1(false),flag2(false),isSelect(false){};
 };
 extern std::vector<individual> words;
 
-int randNum(int const b){
-    //获取随机数
-    std::random_device rd;//获取种子
-    std::mt19937 gen(rd());//以梅森为播种标准
-    std::uniform_int_distribution< > dis(0,b);//播种
-    int rn=dis(gen);
-    return rn;
-}
 
 class SturctFront {
 

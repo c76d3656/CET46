@@ -4,10 +4,9 @@
 
 #ifndef CET46_ENGTOCH_H
 #define CET46_ENGTOCH_H
+#include "SturctFront.h"
 #pragma once
 
-
-#include "SturctFront.h"
 class EngToCh {
 public:
     static void eToC(int b);

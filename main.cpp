@@ -10,13 +10,13 @@ void welcomePrint();
 void formal();
 
 int main() {
+    formal();
+    int choice,b;
+    b=words.size();
     while (true){
-        formal();
         welcomePrint();
-        int choice,b;
-        b=words.size();
         std::cin>>choice;
-        system("cls");
+//        system("cls");
         if(choice==1){
             //Eng to Ch
             EngToCh::eToC(b);
@@ -46,5 +46,22 @@ void welcomePrint(){
 }
 
 void formal(){
+    //test
+    individual test=individual("hello","你好");
+    words.push_back(test);
+    test=individual("world","世界");
+    words.push_back(test);
+    test=individual("code","代码");
+    words.push_back(test);
+    test=individual("hub","俱乐部");
+    words.push_back(test);
+    test=individual("who","谁");
+    words.push_back(test);
+    test=individual("her","她");
+    words.push_back(test);
+    test=individual("give","给予");
+    words.push_back(test);
+    test=individual("accept","同意");
+    words.push_back(test);
     //读取文件格式化
 }
