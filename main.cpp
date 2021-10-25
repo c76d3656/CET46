@@ -32,7 +32,7 @@ int main() {
         } else{
             printf("Input Wrong");
             system("pause");
-            system("cls");
+//            system("cls");
         }
     }
 }

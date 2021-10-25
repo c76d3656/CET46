@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/mpc35/CLionProjects/CET46/ChToEng.h
+SturctFront.h
+C:/Users/mpc35/CLionProjects/CET46/SturctFront.h
+
+C:/Users/mpc35/CLionProjects/CET46/EngToCh.h
+SturctFront.h
+C:/Users/mpc35/CLionProjects/CET46/SturctFront.h
+
+C:/Users/mpc35/CLionProjects/CET46/SturctFront.h
+string
+-
+utility
+-
+vector
+-
+random
+-
+cstdlib
+-
+iostream
+-
+ctime
+-
+
+C:/Users/mpc35/CLionProjects/CET46/main.cpp
+iostream
+-
+string
+-
+vector
+-
+SturctFront.h
+C:/Users/mpc35/CLionProjects/CET46/SturctFront.h
+EngToCh.h
+C:/Users/mpc35/CLionProjects/CET46/EngToCh.h
+ChToEng.h
+C:/Users/mpc35/CLionProjects/CET46/ChToEng.h
+
