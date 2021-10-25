@@ -9,7 +9,7 @@
 
 class EngToCh {
 public:
-    static void eToC(int b);
+    static void eToC(unsigned long long b);
 };
 
 

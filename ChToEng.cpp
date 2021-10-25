@@ -7,10 +7,10 @@
 bool numIsRight(int num);
 bool ansIsRight(std::string const& ans,int num);
 bool printOut(int num);
-int randNum(int b);
+int randNum(unsigned long long b);
 
 
-void ChToEng::CtoEn(int const b) {
+void ChToEng::CtoEn(const unsigned long long b) {
     int count=0;
     for(int i=0;i<3;++i){
         int num=randNum(b);
@@ -29,7 +29,7 @@ void ChToEng::CtoEn(int const b) {
 //    system("pause");
 //    system("cls");
 }
-int randNum(int const b){
+int randNum(const unsigned long long b){
     //获取随机数
 //    std::random_device rd;//获取种子
 //    std::mt19937 gen(rd());//以梅森为播种标准
@@ -38,21 +38,20 @@ int randNum(int const b){
     srand(time(nullptr));
     int rn=rand() % (b);
     return rn;
-    return rn;
 }
 
 bool printOut(int const num){
     individual temp=words[num];
     std::cout<<"\t"<<temp.ch<<std::endl;
     int size=0;
-    auto tempbegin=temp.eng.begin();
-    auto tempend=temp.eng.end();
-    std::cout<<*tempbegin;
-    for(auto i=tempbegin+1;i!=tempend-1;++i){
+    auto temp_begin=temp.eng.begin();
+    auto temp_end=temp.eng.end();
+    std::cout<<*temp_begin;
+    for(auto i=temp_begin+1;i!=temp_end-1;++i){
         std::cout<<"*";
         ++size;
     }
-    std::cout<<(*(tempend-1));
+    std::cout<<(*(temp_end-1));
     printf("\ncompletion the word length in %d\n",size+2);
     std::string ans;
     std::cin>>ans;

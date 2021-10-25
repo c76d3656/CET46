@@ -10,7 +10,7 @@
 
 class ChToEng {
 public:
-    static void CtoEn(int b);
+    static void CtoEn(unsigned long long b);
 };
 
 

@@ -4,12 +4,12 @@
 
 #include "EngToCh.h"
 bool numIsRight0(int a);
-void fourNumFormat(int (&four)[4],int b);
+void fourNumFormat(int (&four)[4],unsigned long long b);
 void isSelectZero(int (&four)[4]);
-int randNum0(int b);
+int randNum0(unsigned long long b);
 int printfOut1(const int (&four)[4]);
 
-void EngToCh::eToC(const int b) {
+void EngToCh::eToC(const unsigned long long b) {
     int count=0;
     for(int i=0;i<3;++i){
         int four[4]={-1,-1,-1,-1};
@@ -65,7 +65,7 @@ bool numIsRight0(int const a) {
     }
     return true;
 }
-void fourNumFormat(int (&four)[4],int const b){
+void fourNumFormat(int (&four)[4],const unsigned long long b){
     for(int & i : four){
         int rn;
         while (true){
@@ -79,7 +79,7 @@ void fourNumFormat(int (&four)[4],int const b){
         words[rn].isSelect= true;
     }
 }
-int randNum0(int const b){
+int randNum0(const unsigned long long b){
     //获取随机数
 //    std::random_device rd;//获取种子
 //    std::mt19937 gen(rd());//以梅森为播种标准

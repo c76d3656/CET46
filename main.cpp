@@ -11,8 +11,8 @@ void formal();
 
 int main() {
     formal();
-    int choice,b;
-    b=words.size();
+    int choice;
+    auto b=words.size();
     while (true){
         welcomePrint();
         std::cin>>choice;
