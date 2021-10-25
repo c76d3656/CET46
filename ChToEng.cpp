@@ -12,13 +12,14 @@ int randNum(int b);
 
 void ChToEng::CtoEn(int const b) {
     int count=0;
-    for(int i=0;i<20;++i){
+    for(int i=0;i<3;++i){
         int num=randNum(b);
         while (!numIsRight(num)){
             num= randNum(b);
         }
-        if(!printOut(num))   ++count;
-        else if(count==2){
+        if(!printOut(num))
+            ++count;
+        if(count==2){
             std::cout<<"\nWrong so much!\n"<<std::endl;
             system("pause");
             return;
@@ -51,8 +52,8 @@ bool printOut(int const num){
         std::cout<<"*";
         ++size;
     }
-    std::cout<<*tempend-1;
-    printf("completion the word length in %d\n",size+2);
+    std::cout<<(*(tempend-1));
+    printf("\ncompletion the word length in %d\n",size+2);
     std::string ans;
     std::cin>>ans;
     if(ansIsRight(ans,num)){
