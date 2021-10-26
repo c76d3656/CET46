@@ -17,8 +17,9 @@ void ChToEng::CtoEn(const unsigned long long b) {
         while (!numIsRight(num)){
             num= randNum(b);
         }
-        if(!printOut(num))
+        if(!printOut(num)){
             ++count;
+        }
         if(count==2){
             std::cout<<"\nWrong so much!\n"<<std::endl;
             system("pause");
@@ -56,8 +57,10 @@ bool printOut(int const num){
     std::string ans;
     std::cin>>ans;
     if(ansIsRight(ans,num)){
+        std::cout << "Right ans" << std::endl;
         return true;
     } else{
+        std::cout<<"Wrong ans"<<std::endl;
         return false;
     }
 }

@@ -11,17 +11,20 @@
 #include <cstdlib>
 #include <iostream>
 #include <ctime>
+#include <cstdio>
+#include <fstream>
 #pragma once
+
 struct  individual{
     std::string eng;
     std::string ch;
     bool flag1= false;
     bool flag2= false;
     bool isSelect= false;
-    individual(std::string a, std::string b):eng(std::move(a)),ch(std::move(b)),flag1(false),flag2(false),isSelect(false){};
+    individual(std::string eng, std::string ch):eng(std::move(eng)),ch(std::move(ch)),flag1(false),flag2(false),isSelect(false){};
 };
-extern std::vector<individual> words;
 
+extern std::vector<individual> words;
 
 class SturctFront {
 
