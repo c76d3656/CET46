@@ -1,4 +1,4 @@
-abandon   vt.丢弃；放弃，抛弃
+﻿abandon   vt.丢弃；放弃，抛弃
 aboard   ad.在船(车)上；上船
 absolute   a.绝对的；纯粹的
 absolutely   ad.完全地；绝对地
@@ -268,7 +268,7 @@ boundary   n.分界线，办界
 bow   n.弓；蝴蝶结；鞠躬
 bowl   n.碗，钵；碗状物
 box   n.箱，盒；包箱
-box   vi. 拳击，打拳
+box   vi.拳击，打拳
 boy   n.男孩，少年；家伙
 brain   n.脑，脑髓；脑力
 brake   n.闸，刹车vi.制动
@@ -652,7 +652,7 @@ costly   a.昂贵的；价值高的
 cottage   n.村舍，小屋
 cotton   n.棉；棉线；棉布
 cough   vi.咳，咳嗽n.咳嗽
-could   aux.v.(can 的过去式)
+could   aux.v.(can的过去式)
 council   n.理事会，委员会
 count   vt.计算vi.数，计数
 counter   n.柜台；计数器
@@ -713,7 +713,7 @@ cushion   n.垫子，坐垫，靠垫
 custom   n.习惯，风俗；海关
 customer   n.顾客，主顾
 cut   vt.切，割，剪；减少
-cycle   n 自行车，循环
+cycle   n.自行车，循环
 each   pron.各，各自a.各
 eager   a.渴望的，热切的
 eagle   n.鹰
@@ -965,7 +965,7 @@ feature   n.特征，特色；面貌
 February   n.二月
 federal   a.联邦的；联盟的
 fee   n.费，酬金；赏金
-feed   vt.喂(养) vi.吃饲料
+feed   vt.喂(养)vi.吃饲料
 feedback   n.回授，反馈，反应
 feel   vi.有知觉vt.触，摸
 feeling   n.感情；感觉，知觉
@@ -1320,7 +1320,7 @@ hollow   a.空的；空洞的
 holy   a.神圣的；圣洁的
 home   n.家；家乡a.家庭的
 honest   a.诚实的；可敬的
-honey   n.蜜， 蜂蜜；甜，甜蜜
+honey   n.蜜，蜂蜜；甜，甜蜜
 honour   n.光荣；尊敬，敬意
 honourable   a.诚实的；光荣的
 hook   n.钩，挂钩vt.钩住
@@ -1713,7 +1713,7 @@ luggage   n.行李；皮箱，皮包
 lump   n.团，块；肿块
 lunch   n.午餐，(美)便餐
 lung   n.肺脏，肺
-luxury   n.奢侈，奢华； 奢侈品
+luxury   n.奢侈，奢华；奢侈品
 machine   n.机器；机械
 machinery   n.机器,机关,结构
 mad   a.发疯的；恼火的
@@ -2605,7 +2605,7 @@ restless   a.不安定的，焦虑的
 restore   vt.恢复；归还；修补
 restrain   vt.抑制，遏制；限制
 restraint   n.抑制；遏制；克制
-restrict   vt 限制，限定，约束
+restrict   vt.限制，限定，约束
 resume   vt.恢复；重新开始
 retain   vt.保持，保留，保有
 retire   vi.退下；引退；就寝
@@ -2647,7 +2647,7 @@ rouse   vt.唤醒，唤起；惊起
 route   n.路，路线，路程
 routine   n.例行公事a.日常的
 row   n.(一)排，(一)行
-row   vt.划(船等) vi.划船
+row   vt.划(船等)vi.划船
 royal   a.王的；皇家的
 rug   n.小地毯；毛毯
 rural   a.农村的，田园的
@@ -2777,12 +2777,12 @@ sort   n.种类；类别vt.整理
 sound   a.健康的；完好的
 sour   a.酸的；脾气坏的
 
-sow   vt.播(种) vi.播种
+sow   vt.播(种)vi.播种
 spacecraft   n.航天器，宇宙飞船
 spade   n.铲，铁锹
 span   n.跨距；一段时间
 spare   vt.节约a.多余的
-spark   n.火花， 火星
+spark   n.火花，火星
 specialist   n.专家
 specialize   vi.成为…专家；专攻
 specific   a.特有的；具体的
@@ -2886,7 +2886,7 @@ sustain   vt.支撑；供养；忍受
 swallow   n.燕子
 swallow   vt.&vi.吞下，咽下
 sway   vi.摇动vt.摇；摇动
-swear   vt.宣(誓) vi.诅咒
+swear   vt.宣(誓)vi.诅咒
 sweater   n.厚运动衫，毛线衫
 sweep   vt.扫；刮起；扫过
 swell   vi.膨胀；隆起；增长
@@ -3040,7 +3040,7 @@ unknown   a.不知道的；未知的
 unless   conj.除非，如果不
 unlike   a.不同的prep.不象…
 unlikely   a.未必的，未必可能的
-unload   vt.卸(货) vi.卸货
+unload   vt.卸(货)vi.卸货
 upper   a.上面的；地位较高的
 upright   a.垂直的；正直的
 upset   vt.弄翻，打翻，倾覆

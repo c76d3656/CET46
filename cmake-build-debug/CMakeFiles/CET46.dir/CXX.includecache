@@ -14,7 +14,15 @@ C:/Users/mpc35/CLionProjects/CET46/ChToEng.h
 SturctFront.h
 C:/Users/mpc35/CLionProjects/CET46/SturctFront.h
 
+C:/Users/mpc35/CLionProjects/CET46/EngToCh.cpp
+EngToCh.h
 C:/Users/mpc35/CLionProjects/CET46/EngToCh.h
+
+C:/Users/mpc35/CLionProjects/CET46/EngToCh.h
+SturctFront.h
+C:/Users/mpc35/CLionProjects/CET46/SturctFront.h
+
+C:/Users/mpc35/CLionProjects/CET46/SturctFront.cpp
 SturctFront.h
 C:/Users/mpc35/CLionProjects/CET46/SturctFront.h
 
@@ -36,6 +44,8 @@ ctime
 cstdio
 -
 fstream
+-
+chrono
 -
 
 C:/Users/mpc35/CLionProjects/CET46/main.cpp

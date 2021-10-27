@@ -31,11 +31,13 @@ int main() {
             printf("Input Wrong");
             system("pause");
 //            system("cls");
+//Linux下无法使用cls
         }
     }
 }
 
 void welcomePrint(){
+    //欢迎洁面
     printf("\t-CET-\t\n");
     printf("1.Eng to Ch\n");
     printf("2.Ch to Eng\n");
@@ -44,31 +46,18 @@ void welcomePrint(){
 }
 
 void formal(){
-    //test
-//    individual test=individual("hello","你好");
-//    words.push_back(test);
-//    test=individual("world","世界");
-//    words.push_back(test);
-//    test=individual("code","代码");
-//    words.push_back(test);
-//    test=individual("hub","俱乐部");
-//    words.push_back(test);
-//    test=individual("who","谁");
-//    words.push_back(test);
-//    test=individual("her","她");
-//    words.push_back(test);
-//    test=individual("give","给予");
-//    words.push_back(test);
-//    test=individual("accept","同意");
-//    words.push_back(test);
     //读取文件格式化
     std::fstream fs;
     fs.open("C:\\C4ET.txt",std::ios::in);
     std::string eng,ch;
+    //当文件流不出现问题时进行读取
     while (fs.good()){
         fs>>eng;
         fs>>ch;
-        words.push_back(individual(eng,ch));
+        //构造函数，将其初始化并存入vector
+        words.emplace_back(eng,ch);
     }
+    //不知为何多了最后一个重复
+    words.erase(words.end());
     fs.close();
 }
