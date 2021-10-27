@@ -10,8 +10,7 @@ CMakeFiles/CET46.dir/EngToCh.cpp.obj: \
  ../EngToCh.h \
  ../SturctFront.h
 CMakeFiles/CET46.dir/SturctFront.cpp.obj: \
- ../SturctFront.cpp \
- ../SturctFront.h
+ ../SturctFront.cpp
 CMakeFiles/CET46.dir/main.cpp.obj: \
  ../ChToEng.h \
  ../EngToCh.h \

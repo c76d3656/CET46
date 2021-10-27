@@ -48,7 +48,7 @@ void welcomePrint(){
 void formal(){
     //读取文件格式化
     std::fstream fs;
-    fs.open("C:\\C4ET.txt",std::ios::in);
+    fs.open("C4ET.txt",std::ios::in);
     std::string eng,ch;
     //当文件流不出现问题时进行读取
     while (fs.good()){
