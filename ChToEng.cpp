@@ -66,6 +66,8 @@ bool printOut(int const num){
         return true;
     } else{
         std::cout<<"Wrong ans"<<std::endl;
+//        std::cout<<std::endl<<"right word is:\t";
+//        std::cout<<temp.eng<<std::endl;
         return false;
     }
 }

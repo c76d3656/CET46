@@ -28,6 +28,9 @@ struct  individual{
 //声明该vector，extern关键词在别处定义
 extern std::vector<individual> words;
 
+
+
+
 class SturctFront {
 
 };

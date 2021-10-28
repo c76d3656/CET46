@@ -28,14 +28,16 @@ void EngToCh::eToC(const unsigned long long b) {
             //下一次随机就不会出现
             words[four[temp]].flag1 = true;
             std::cout << "Right ans" << std::endl;
+        }else {
+            std::cout<<"Wrong ans"<<std::endl;
+            ++count;
+//            std::cout<<"right ans is:\t"<<words[four[temp]].ch<<std::endl;
         }
-        else if(++count==2){
+        if(count==2){
             //回答错误count先自加1，若为2则退出EngToCh程序
             std::cout<<"\nWrong so much!\n"<<std::endl;
 //            system("pause");
             return;
-        }else{
-            std::cout<<"Wrong ans"<<std::endl;
         }
     }
     std::cout<<"\ngood job! go on\n"<<std::endl;
