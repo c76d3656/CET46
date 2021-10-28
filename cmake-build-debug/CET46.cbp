@@ -4,104 +4,106 @@
 	<Project>
 		<Option title="CET46"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Zhong/Documents/GitHub/CET46/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CET46">
-				<Option output="C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/CET46.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug"/>
+				<Option output="C:/Users/Zhong/Documents/GitHub/CET46/cmake-build-debug/CET46.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zhong/Documents/GitHub/CET46/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 CET46"/>
-					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 CET46"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CET46/fast">
-				<Option output="C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/CET46.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug"/>
+				<Option output="C:/Users/Zhong/Documents/GitHub/CET46/cmake-build-debug/CET46.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Zhong/Documents/GitHub/CET46/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 CET46/fast"/>
-					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 CET46/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Zhong/Documents/GitHub/CET46/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Zhong/Documents/GitHub/CET46/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/mpc35/CLionProjects/CET46/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Zhong\Documents\GitHub\CET46\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/mpc35/CLionProjects/CET46/ChToEng.cpp">
+		<Unit filename="C:/Users/Zhong/Documents/GitHub/CET46/ChToEng.cpp">
 			<Option target="CET46"/>
 		</Unit>
-		<Unit filename="C:/Users/mpc35/CLionProjects/CET46/ChToEng.h">
+		<Unit filename="C:/Users/Zhong/Documents/GitHub/CET46/ChToEng.h">
 			<Option target="CET46"/>
 		</Unit>
-		<Unit filename="C:/Users/mpc35/CLionProjects/CET46/EngToCh.cpp">
+		<Unit filename="C:/Users/Zhong/Documents/GitHub/CET46/EngToCh.cpp">
 			<Option target="CET46"/>
 		</Unit>
-		<Unit filename="C:/Users/mpc35/CLionProjects/CET46/EngToCh.h">
+		<Unit filename="C:/Users/Zhong/Documents/GitHub/CET46/EngToCh.h">
 			<Option target="CET46"/>
 		</Unit>
-		<Unit filename="C:/Users/mpc35/CLionProjects/CET46/SturctFront.cpp">
+		<Unit filename="C:/Users/Zhong/Documents/GitHub/CET46/SturctFront.cpp">
 			<Option target="CET46"/>
 		</Unit>
-		<Unit filename="C:/Users/mpc35/CLionProjects/CET46/SturctFront.h">
+		<Unit filename="C:/Users/Zhong/Documents/GitHub/CET46/SturctFront.h">
 			<Option target="CET46"/>
 		</Unit>
-		<Unit filename="C:/Users/mpc35/CLionProjects/CET46/main.cpp">
+		<Unit filename="C:/Users/Zhong/Documents/GitHub/CET46/main.cpp">
 			<Option target="CET46"/>
 		</Unit>
-		<Unit filename="C:/Users/mpc35/CLionProjects/CET46/CMakeLists.txt">
+		<Unit filename="C:/Users/Zhong/Documents/GitHub/CET46/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -6,21 +6,25 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/mpc35/CLionProjects/CET46/ChToEng.cpp
+C:/Users/Zhong/Documents/GitHub/CET46/ChToEng.cpp
 ChToEng.h
-C:/Users/mpc35/CLionProjects/CET46/ChToEng.h
+C:/Users/Zhong/Documents/GitHub/CET46/ChToEng.h
 
-C:/Users/mpc35/CLionProjects/CET46/ChToEng.h
+C:/Users/Zhong/Documents/GitHub/CET46/ChToEng.h
 SturctFront.h
-C:/Users/mpc35/CLionProjects/CET46/SturctFront.h
+C:/Users/Zhong/Documents/GitHub/CET46/SturctFront.h
 
-C:/Users/mpc35/CLionProjects/CET46/EngToCh.h
+C:/Users/Zhong/Documents/GitHub/CET46/EngToCh.cpp
+EngToCh.h
+C:/Users/Zhong/Documents/GitHub/CET46/EngToCh.h
+
+C:/Users/Zhong/Documents/GitHub/CET46/EngToCh.h
 SturctFront.h
-C:/Users/mpc35/CLionProjects/CET46/SturctFront.h
+C:/Users/Zhong/Documents/GitHub/CET46/SturctFront.h
 
-C:/Users/mpc35/CLionProjects/CET46/SturctFront.cpp
+C:/Users/Zhong/Documents/GitHub/CET46/SturctFront.cpp
 
-C:/Users/mpc35/CLionProjects/CET46/SturctFront.h
+C:/Users/Zhong/Documents/GitHub/CET46/SturctFront.h
 string
 -
 utility
@@ -42,11 +46,11 @@ fstream
 chrono
 -
 
-C:/Users/mpc35/CLionProjects/CET46/main.cpp
+C:/Users/Zhong/Documents/GitHub/CET46/main.cpp
 SturctFront.h
-C:/Users/mpc35/CLionProjects/CET46/SturctFront.h
+C:/Users/Zhong/Documents/GitHub/CET46/SturctFront.h
 EngToCh.h
-C:/Users/mpc35/CLionProjects/CET46/EngToCh.h
+C:/Users/Zhong/Documents/GitHub/CET46/EngToCh.h
 ChToEng.h
-C:/Users/mpc35/CLionProjects/CET46/ChToEng.h
+C:/Users/Zhong/Documents/GitHub/CET46/ChToEng.h
 

@@ -57,7 +57,5 @@ void formal(){
         //构造函数，将其初始化并存入vector
         words.emplace_back(eng,ch);
     }
-    //不知为何多了最后一个重复
-    words.erase(words.end());
     fs.close();
 }
