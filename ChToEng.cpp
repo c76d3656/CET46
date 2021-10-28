@@ -12,7 +12,7 @@ int randNum(unsigned long long b);
 
 void ChToEng::CtoEn(const unsigned long long b) {
     //turn为每一轮出现单词次数
-    int turn=3;
+    int turn=30;
     //count记录错误个数
     int count=0;
     for(int i=0;i<turn;++i){
@@ -33,8 +33,8 @@ void ChToEng::CtoEn(const unsigned long long b) {
         }
     }
     std::cout<<"\ngood job! go on\n"<<std::endl;
-//    system("pause");
-//    system("cls");
+    system("pause");
+    system("cls");
 }
 
 bool printOut(int const num){
@@ -66,8 +66,8 @@ bool printOut(int const num){
         return true;
     } else{
         std::cout<<"Wrong ans"<<std::endl;
-//        std::cout<<std::endl<<"right word is:\t";
-//        std::cout<<temp.eng<<std::endl;
+        std::cout<<std::endl<<"right word is:\t";
+        std::cout<<temp.eng<<std::endl;
         return false;
     }
 }

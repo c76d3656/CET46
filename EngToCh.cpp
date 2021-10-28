@@ -8,10 +8,12 @@ void fourNumFormat(int (&four)[4],unsigned long long b);
 void isSelectZero(int (&four)[4]);
 int randNum0(unsigned long long b);
 int printfOut1(const int (&four)[4]);
+//为修复答错后无法显示正确答案的bug
+int tempRightAns;
 
 void EngToCh::eToC(const unsigned long long b) {
     //turn为每一轮出现单词次数
-    int turn=3;
+    int turn=30;
     //count记录错误个数
     int count=0;
     for(int i=0;i<turn;++i){
@@ -31,18 +33,18 @@ void EngToCh::eToC(const unsigned long long b) {
         }else {
             std::cout<<"Wrong ans"<<std::endl;
             ++count;
-//            std::cout<<"right ans is:\t"<<words[four[temp]].ch<<std::endl;
+            std::cout<<"right ans is:\t"<<words[four[tempRightAns]].ch<<std::endl;
         }
         if(count==2){
             //回答错误count先自加1，若为2则退出EngToCh程序
             std::cout<<"\nWrong so much!\n"<<std::endl;
-//            system("pause");
+            system("pause");
             return;
         }
     }
     std::cout<<"\ngood job! go on\n"<<std::endl;
-//    system("pause");
-//    system("cls");
+    system("pause");
+    system("cls");
 }
 void isSelectZero(int (&four)[4]){
     for(auto &i:four)
@@ -52,6 +54,7 @@ void isSelectZero(int (&four)[4]){
 int printfOut1(const int (&four)[4]){
     //从已选4个词中挑选一个
     int rn= randNum0(3);
+    tempRightAns=rn;
     //打印
     std::cout<<"\t"<<words[four[rn]].eng<<"\t"<<std::endl;
     //打印中文释义
