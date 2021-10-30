@@ -34,7 +34,7 @@ void ChToEng::CtoEn(const unsigned long long b) {
     }
     std::cout<<"\ngood job! go on\n"<<std::endl;
     system("pause");
-    system("cls");
+//    system("cls");
 }
 
 bool printOut(int const num){

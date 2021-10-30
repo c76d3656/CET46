@@ -44,7 +44,7 @@ void EngToCh::eToC(const unsigned long long b) {
     }
     std::cout<<"\ngood job! go on\n"<<std::endl;
     system("pause");
-    system("cls");
+//    system("cls");
 }
 void isSelectZero(int (&four)[4]){
     for(auto &i:four)

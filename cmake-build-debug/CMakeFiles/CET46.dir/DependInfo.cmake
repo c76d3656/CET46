@@ -13,7 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Zhong/Documents/GitHub/CET46/SturctFront.cpp" "C:/Users/Zhong/Documents/GitHub/CET46/cmake-build-debug/CMakeFiles/CET46.dir/SturctFront.cpp.obj"
   "C:/Users/Zhong/Documents/GitHub/CET46/main.cpp" "C:/Users/Zhong/Documents/GitHub/CET46/cmake-build-debug/CMakeFiles/CET46.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

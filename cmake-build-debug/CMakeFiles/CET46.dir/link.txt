@@ -1,0 +1,3 @@
+C:\Users\Zhong\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\CET46.dir/objects.a
+C:\Qt\Tools\mingw810_64\bin\ar.exe cr CMakeFiles\CET46.dir/objects.a @CMakeFiles\CET46.dir\objects1.rsp
+C:\Qt\Tools\mingw810_64\bin\g++.exe  -static -g -static-libgcc -static-libstdc++  -Wl,--whole-archive CMakeFiles\CET46.dir/objects.a -Wl,--no-whole-archive -o CET46.exe -Wl,--out-implib,libCET46.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CET46.dir\linklibs.rsp

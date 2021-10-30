@@ -11,10 +11,10 @@ int main() {
     int choice;
     auto b=words.size();
     while (true){
-        system("cls");
+//        system("cls");
         welcomePrint();
         std::cin>>choice;
-        system("cls");
+//        system("cls");
         if(choice==1){
             //Eng to Ch
             EngToCh::eToC(b);
@@ -30,7 +30,7 @@ int main() {
         } else{
             printf("Input Wrong");
             system("pause");
-            system("cls");
+//            system("cls");
 //Linux下无法使用cls
         }
     }
